@@ -40,17 +40,41 @@
             width: 100%;
         }
 
-        #titlePromotions{
+        #mainTitlePromotions{
             display: flex;
             width: 100%;
             align-items: center;
             justify-content: space-around;
+            font-family: Verdana, Tahoma, sans-serif;
+        }
+
+        #content1{
+            display: flex;
+            width: 50%;
+            justify-content: center;
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 5px;
+        }
+
+        #content1_left{}
+
+        #content1_right{
+            padding-left: 50px;
+        }
+
+        #content1_right_titlePromotion{
+            width: 100%;
+            align-items: center;
+            justify-content: space-around;
+            font-family: Verdana, Tahoma, sans-serif;
         }
     </style>
 </head>
 
 <body>
     <div id="wrapper">
+        <!-- Main menu -->
         <div id="main_menu">
             <div id="menu_left">
                 <div id="Shop">Shop</div>
@@ -66,11 +90,29 @@
                 <img src="Button 1.png" alt="">
                 <img src="Avatar 1.png" alt="">
             </div>
-        </div>
-        <div id="titlePromotions">
+        </div><br>
+        <div id="mainTitlePromotions">
             <h1>Promotions</h1>
+        </div><br>
+        <!-- Content 1 -->
+        <div id="content1">
+            <div id="content1_left">
+                <img src="Image 1 (1).png" alt="" width="400px">
+            </div>
+            <div id="content1_right">
+                <div id="content1_right_titlePromotion">
+                    <h3>Promotion Title</h3>
+                </div>
+                <div id="text1">
+                    Et ipsum irure amet cupidatat mollit exercitation consequat duis aliquip. Rerprehenderit Loem veniam pariatur esse pariatur in aute tempor au
+                </div><br>
+                <div id="text2">
+                    <i>*Velit deserunt elit proident velit anim adipisicing</i>
+                </div><br>
+                <input type="button" value="Shop now">
+            </div>
         </div>
-        
+        <!-- Content 2 -->
     </div>
 </body>
 
